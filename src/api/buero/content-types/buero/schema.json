@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "bueros",
+  "info": {
+    "singularName": "buero",
+    "pluralName": "bueros",
+    "displayName": "Büro",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Profil": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

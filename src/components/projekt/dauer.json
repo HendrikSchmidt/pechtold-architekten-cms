@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_projekt_dauers",
+  "info": {
+    "displayName": "Dauer",
+    "icon": "calendar-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Start": {
+      "type": "date"
+    },
+    "Ende": {
+      "type": "date"
+    }
+  }
+}

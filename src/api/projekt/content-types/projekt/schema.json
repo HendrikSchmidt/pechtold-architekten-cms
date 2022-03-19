@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projekts",
+  "info": {
+    "singularName": "projekt",
+    "pluralName": "projekts",
+    "displayName": "Projekt"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titel": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "Adresse": {
+      "type": "text"
+    },
+    "Dauer": {
+      "displayName": "Dauer",
+      "type": "component",
+      "repeatable": false,
+      "component": "projekt.dauer"
+    },
+    "Beschreibung": {
+      "type": "richtext"
+    },
+    "Bilder": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
