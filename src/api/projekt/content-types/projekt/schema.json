@@ -30,6 +30,12 @@
       ],
       "type": "media",
       "multiple": true
+    },
+    "kategorien": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::kategorie.kategorie",
+      "inversedBy": "projekte"
     }
   }
 }

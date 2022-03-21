@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kategorien",
+  "info": {
+    "singularName": "kategorie",
+    "pluralName": "kategorien",
+    "displayName": "Kategorie",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Anzeigename": {
+      "type": "string",
+      "required": true
+    },
+    "projekte": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::projekt.projekt",
+      "inversedBy": "kategorien"
+    }
+  }
+}
