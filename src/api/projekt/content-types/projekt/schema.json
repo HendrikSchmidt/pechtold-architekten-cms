@@ -31,11 +31,11 @@
       "type": "media",
       "multiple": true
     },
-    "kategorien": {
+    "Kategorien": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::kategorie.kategorie",
-      "inversedBy": "projekte"
+      "inversedBy": "Projekte"
     }
   }
 }
