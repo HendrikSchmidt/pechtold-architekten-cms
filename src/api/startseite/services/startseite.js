@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * impressum service.
+ * startseite service.
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::impressum.impressum');
+module.exports = createCoreService('api::startseite.startseite');

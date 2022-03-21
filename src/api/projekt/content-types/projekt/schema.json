@@ -1,9 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "projekts",
+  "collectionName": "projekte",
   "info": {
     "singularName": "projekt",
-    "pluralName": "projekts",
+    "pluralName": "projekte",
     "displayName": "Projekt"
   },
   "options": {
@@ -13,22 +13,18 @@
   "attributes": {
     "Titel": {
       "type": "string",
-      "unique": true,
       "required": true
     },
     "Adresse": {
       "type": "text"
     },
     "Dauer": {
-      "displayName": "Dauer",
-      "type": "component",
-      "repeatable": false,
-      "component": "projekt.dauer"
+      "type": "string"
     },
     "Beschreibung": {
       "type": "richtext"
     },
-    "Bilder": {
+    "Fotos": {
       "allowedTypes": [
         "images"
       ],

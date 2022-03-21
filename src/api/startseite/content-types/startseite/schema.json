@@ -1,23 +1,22 @@
 {
   "kind": "singleType",
-  "collectionName": "homepages",
+  "collectionName": "startseiten",
   "info": {
-    "singularName": "homepage",
-    "pluralName": "homepages",
-    "displayName": "Homepage",
-    "description": ""
+    "singularName": "startseite",
+    "pluralName": "startseiten",
+    "displayName": "Startseite"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Aufmacherfoto": {
+    "Aufmachergalerie": {
       "allowedTypes": [
         "images"
       ],
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "required": true
     }
   }

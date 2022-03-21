@@ -1,23 +1,27 @@
 {
   "kind": "singleType",
-  "collectionName": "kontakts",
+  "collectionName": "kontakte",
   "info": {
     "singularName": "kontakt",
-    "pluralName": "kontakts",
-    "displayName": "Kontakt",
-    "description": ""
+    "pluralName": "kontakte",
+    "displayName": "Kontakt"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
+    "Kurzfassung": {
+      "type": "richtext",
+      "required": true
+    },
     "Langfassung": {
       "type": "richtext",
       "required": true
     },
-    "Kurzfassung": {
-      "type": "richtext"
+    "Impressum": {
+      "type": "richtext",
+      "required": true
     }
   }
 }
