@@ -4,7 +4,8 @@
   "info": {
     "singularName": "kontakt",
     "pluralName": "kontakte",
-    "displayName": "Kontakt"
+    "displayName": "Kontakt",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,6 +21,10 @@
       "required": true
     },
     "Impressum": {
+      "type": "richtext",
+      "required": true
+    },
+    "Datenschutz": {
       "type": "richtext",
       "required": true
     }
