@@ -12,11 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Kurzfassung": {
-      "type": "richtext",
-      "required": true
-    },
-    "Langfassung": {
+    "Kontakt": {
       "type": "richtext",
       "required": true
     },
