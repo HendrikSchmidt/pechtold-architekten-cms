@@ -2,7 +2,7 @@ module.exports = ({ env }) => ({
   upload: {
     config: {
       breakpoints: {
-        xlarge: 1400,
+        xlarge: 1500,
         large: 1000,
         medium: 750,
         small: 500,
