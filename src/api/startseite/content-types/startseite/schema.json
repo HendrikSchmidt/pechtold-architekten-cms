@@ -12,17 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Aufmachergalerie": {
-      "type": "media",
-      "multiple": true,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "Kontakt": {
       "type": "richtext",
       "required": true
+    },
+    "Projekte": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::projekt.projekt"
     }
   }
 }
