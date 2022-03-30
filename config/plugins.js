@@ -1,5 +1,11 @@
 module.exports = ({ env }) => ({
   upload: {
+    breakpoints: {
+      xlarge: 1400,
+      large: 1000,
+      medium: 750,
+      small: 500,
+    },
     config: {
       provider: 'cloudinary',
       providerOptions: {
