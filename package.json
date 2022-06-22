@@ -1,7 +1,7 @@
 {
   "name": "pechtold",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
@@ -10,19 +10,17 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.1.5",
-    "@strapi/plugin-users-permissions": "4.1.5",
-    "@strapi/provider-upload-cloudinary": "^4.1.5",
-    "@strapi/strapi": "4.1.5",
-    "pg": "^8.7.3",
-    "pg-connection-string": "^2.5.0",
-    "sqlite3": "5.0.2"
+    "@strapi/plugin-i18n": "4.2.0",
+    "@strapi/plugin-users-permissions": "4.2.0",
+    "@strapi/provider-upload-cloudinary": "^4.2.0",
+    "@strapi/strapi": "4.2.0",
+    "better-sqlite3": "7.4.6"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "a86c4811-5adf-4f7a-8eb2-777b4f67a7e9"
+    "uuid": "f1b0a08b-e5c5-4d3c-8493-201f24428082"
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",
